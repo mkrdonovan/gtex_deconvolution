@@ -1,0 +1,18 @@
+message("Loading packages...")
+
+
+suppressPackageStartupMessages(library(RMySQL        ))
+suppressPackageStartupMessages(library(data.table    ))
+suppressPackageStartupMessages(library(plyr          ))
+suppressPackageStartupMessages(library(gdsfmt        ))
+suppressPackageStartupMessages(library(SNPRelate     ))
+suppressPackageStartupMessages(library(parallel      ))
+suppressPackageStartupMessages(library(preprocessCore))
+suppressPackageStartupMessages(library(optparse      ))
+suppressPackageStartupMessages(library(lme4          ))
+suppressPackageStartupMessages(library(pbkrtest      ))
+suppressPackageStartupMessages(library(gplots        ))
+suppressPackageStartupMessages(library(uuid          ))
+suppressPackageStartupMessages(library(gCMAP         ))
+suppressPackageStartupMessages(library(coloc         ))
+suppressPackageStartupMessages(library(qvalue        ))
